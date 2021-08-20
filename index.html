@@ -337,9 +337,9 @@
          <div>
              <h1>LET'S STAY IN TOUCH</h1>
              <p>Get updates on sales, specials and more</p>
-             <input class="form-control" type="text" placeholder="Your Email" >
+             <input id="input-field" class="form-control" type="text" placeholder="Your Email" >
              <br>
-             <button class="panda-btn-buy-now " data-bs-toggle="modal" data-bs-target="#exampleModal">SUBMIT</button>
+             <button class="panda-btn-buy-now " id="submit-button" onclick="consolelog()" disabled data-bs-toggle="modal" data-bs-target="#exampleModal">SUBMIT</button>
          </div>
      </section>
  </main>
@@ -363,7 +363,7 @@
         You have successfully subscribe 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button id="disbled" type="button"  class="btn btn-danger" data-bs-dismiss="modal" disabled>Close</button>
         <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
       </div>
     </div>
